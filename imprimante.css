@@ -1,0 +1,51 @@
+/* Réinitialiser les styles non nécessaires */
+* {
+    background: none !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+/* Masquer les éléments inutiles à l'impression */
+
+/*footer,
+img,
+*/
+/* Masquer les éléments inutiles à l'impression */
+nav,
+video {
+    display: none !important;
+}
+
+/* Rendre le contenu plus lisible */
+body {
+    font-family: Times New Roman, serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    margin: 2cm;
+    color: #000;
+}
+
+/* Titres plus visibles */
+h1, h2, h3 {
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    margin-top: 30px;
+}
+
+/* Paragraphes bien espacés */
+p {
+    margin: 10px 0;
+}
+
+/* Supprimer les liens cliquables */
+a::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #555;
+}
+
+/* Ajuster les articles ou sections */
+article, section {
+    margin: 0
+}
