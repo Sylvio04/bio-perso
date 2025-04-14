@@ -138,7 +138,12 @@ footer {
     padding: 20px;
     font-size: 0.9em;
     margin-top: 40px;
-    margin: 0;
+   /* margin: 0; */
+}
+/* Supprime la marge par défaut */
+footer p {
+    margin: 0; 
+    line-height: 1.2; 
 }
 
 /* --- Reglès pour allez plus loin --- */
