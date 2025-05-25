@@ -175,3 +175,83 @@ footer p {
     text-decoration: none;
 }
 
+
+/* ####### Média Queries CSS3 ####### */
+/* Paramètre écrans ordinateurs */
+@media screen and (min-width: 1024px) {
+  nav a {
+    padding: 14px 25px;
+    font-size: 1em;
+  }
+
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  main, article, section {
+    padding: 30px;
+    margin: 30px auto;
+  }
+}
+
+/* aramètre écrans moyens tablettes (*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  nav li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    display: block;
+    padding: 12px;
+  }
+
+  main, article, section {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  header h1 {
+    font-size: 1.8em;
+  }
+}
+
+/* aramètre pétits écrans smartphones */
+@media screen and (max-width: 767px) {
+  header {
+    padding: 20px 5px;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
+
+  header p {
+    font-size: 1em;
+  }
+
+  nav li {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  .image, .image_specs {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .ressources {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 0.8em;
+  }
+}
