@@ -1,0 +1,176 @@
+/* --- Règles pour body --- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Règles pour body en-tête --- */
+header {
+    background-color: #002855;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+/* --- Règles pour  navigation --- */
+nav {
+    background-color: #1a8cff; /* 004080 */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #007BFF;
+}
+
+/* --- Règles Contenu principal --- */
+main, article, section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    /* border-left: 5px solid #007BFF; */
+}
+
+h2 {
+    color: #004080;
+}
+
+/* --- Règles d'images --- */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+}
+
+.image {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 650px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.image figcaption {
+    font-family: Georgia, serif;
+    font-size: 0.95em;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.image figcaption p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.image_specs {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 650px;
+}
+
+.image_specs figcaption {
+    font-family: Georgia, serif;
+    font-size: 0.95em;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+.image_specs figcaption p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.source {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+
+/* --- Reglès pour Footer --- */
+footer {
+   /* background-color: #002855;*/
+	background-color: #1a8cff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    margin-top: 40px;
+   /* margin: 0; */
+}
+/* Supprime la marge par défaut */
+footer p {
+    margin: 0; 
+    line-height: 1.2; 
+}
+
+/* --- Reglès pour allez plus loin --- */
+.ressources {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 30px 0;
+    /* border-left: 4px solid #c03; */
+    font-family: Arial, sans-serif; 
+	/* font-family: "Segoe UI", Arial, sans-serif; */
+}
+
+.ressources h3 {
+    margin-bottom: 10px;
+    color: #c03;
+}
+
+.ressources ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ressources li {
+    margin-bottom: 8px;
+}
+
+.ressources a {
+    color: #0056b3;
+    text-decoration: none;
+}
